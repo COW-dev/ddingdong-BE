@@ -47,6 +47,7 @@ server:
 
 management:
   endpoints:
+    enabled-by-default: false
     web:
       exposure:
         include: info, health
@@ -58,3 +59,5 @@ management:
       enabled: true
   server:
     port: 9090
+  security:
+    enabled: false
